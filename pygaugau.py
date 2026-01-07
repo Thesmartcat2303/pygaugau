@@ -4245,7 +4245,7 @@ try:
         raise
     if ';' in j[2]:
         raise
-    if j[4][0:199] != "try:_pygaugau['exec'](_pygaugau['__import__']('marshal').loads(_pygaugau['__import__']('zlib').decompress(_pygaugau['__import__']('bz2').decompress(_pygaugau['__import__']('base64').a85decode":
+    if j[4][0:191] != "try:_pygaugau['exec'](_pygaugau['__import__']('marshal').loads(_pygaugau['__import__']('zlib').decompress(_pygaugau['__import__']('bz2').decompress(_pygaugau['__import__']('base64').a85decode":
         raise
     if str(j[4])[-2:] != ")\n":
         raise
